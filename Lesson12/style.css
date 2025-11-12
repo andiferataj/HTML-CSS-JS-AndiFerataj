@@ -1,0 +1,48 @@
+@font-face{
+    font-family: "Fake Identity";
+    src: url("ROSSTEN.ttf");
+}
+h1{
+    color: blue;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    font-family: "Fake Identity";
+}
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
+}
+h4{
+    text-decoration: underline;
+}
+h5{
+    font-family: "Fake Identity";
+}
+p{
+    text-indent:50px;
+    text-align: center;
+    font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif; 
+}
+.myElement {
+    color:red !important;
+}
+#normalText{
+    font-style: normal;
+    font-size:50px;
+    font-weight: normal;
+}
+#italicText {
+    font-style: italic;
+    font-size:50px;
+    font-weight: bold;
+}
+#obliqueText{
+    font-style: oblique;
+    font-size:50px;
+    font-weight: 900;
+}
+a{
+    color: green;
+}
