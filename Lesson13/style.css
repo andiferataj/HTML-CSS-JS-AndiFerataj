@@ -1,0 +1,40 @@
+ul{
+    border: 5px solid green;
+    background-color: white;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 20px;
+
+}
+ol{
+    list-style-type: upper-roman;
+    background: red;
+    padding: 15px;
+}
+ol li {
+    background: blue;
+    padding: 10px;
+    margin-left: 30px;
+}
+ul li {
+    padding: 8px 16px;
+    border: 1px solid grey;
+}
+div {
+    overflow: hidden;
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    padding: 10px;
+    border: 10px solid gray;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+}
