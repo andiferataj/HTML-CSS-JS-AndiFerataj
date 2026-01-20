@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    background: red;
+}
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    flex-grow: 4;
+    text-align: center;
+}
+.container div:nth-child(1){
+    order: 2;
+}
+.container div:nth-child(2){
+    order: 3;
+}
+.container div:nth-child(3){
+    order:0;
+}
+.container div:nth-child(4){
+    order:1;
+}
+.container2{
+    display: flex;
+    background: blue;
+    flex-direction: row-reverse;
+}
+.container2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+.container2 div:nth-child(4){
+    flex-grow: 1;
+}
+.container{
+    flex-wrap: wrap;
+}
+.container2{
+    flex-wrap: wrap-reverse;
+}
+.container3 {
+    display: flex;
+    background:green;
+    justify-content: center;
+}
+.container3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+.container4{
+    display: flex;
+    background: orange;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 200px;
+}
+.container4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 50px;
+}
+.container4 div:nth-child(2){
+    align-self: flex-end;
+}
+.container5 {
+    display: flex;
+    background: purple;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 200px;
+    align-items: stretch;
+}
+.container5 div:nth-child(1){
+    height: 20px;
+}
+.container5 div:nth-child(2){
+    height: 100px;
+}
+.container5 div:nth-child(3){
+    height: 50px;
+}
+.container5 div:nth-child(4){
+    height: 150px;
+}
+.container5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 50px;
+}
+.container6{
+    display: flex;
+    background: yellow;
+    flex-direction: row;
+    height: 800px;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.container6 div{
+    background-color: black;
+    color:white;
+    margin:10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 200px;
+    width:400px;
+}

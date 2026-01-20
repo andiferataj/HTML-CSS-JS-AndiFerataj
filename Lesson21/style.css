@@ -1,0 +1,45 @@
+@media all and (max-width: 600px) {
+    body{
+        background: #00004e;
+        color: white;
+    }
+}
+@media all and (orientation: landscape){
+    h1{
+        font-size: 80px;
+    }
+}
+@media all and(orientation: portrait){
+    h1{
+        font-size: 30px;
+    }
+}
+h1{
+    border: 2px solid white;
+    padding: 20px;
+}
+@media (min-width:600px) and (max-width:900px){
+    img {
+        display: none;
+    }
+}
+@media (min-width:600px) {
+    p {
+        column-count: 2;
+    }
+}
+
+
+/*
+@media only screen and (max-width:600px)   -----  Extra Small Devices (Phones)
+@media only screen and (min-width:600px)   -----  Small Devices(Portrait Tablets and Large Phones)
+@media only screen and (min-width:768px)   -----  Medium Devices(Landscape Tablets)
+@media only screen and (min-width:992px)   -----  Large Devices(Laptops, Desktops)
+@media only screen and (min-width:1200px)    -----  Extra Large Devices(Large Laptops and Desktops)
+*/
+
+@media print{
+    body{
+        background-color: transparent;
+    }
+}

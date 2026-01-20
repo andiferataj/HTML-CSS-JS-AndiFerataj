@@ -1,0 +1,59 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width:180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height:auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.world {
+    background: url("images/image1234.jpg") no-repeat;
+}
+
+.pictures{
+    width:1000px;
+    height:1000px;
+    display: inline-block;
+    background-position: 0 0;
+}
+a[href="https://shkolladigjitale.com"]{
+    color: blue;
+}
+
+p[class*="ds"] {
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+div[id~="ds"] {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+img[title^="image"]{
+    border:2px solid blue;
+}
+h1[class|=heading] {
+    background: purple;
+    padding: 20px;
+    color: white;
+}
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
+input[readonly]{
+    border: 2px solid green;
+    border-radius: 3px;
+}
