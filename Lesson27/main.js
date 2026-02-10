@@ -100,3 +100,13 @@ delete computer.GPU;
 console.log(car.getKilometers);
 car.setKilometers = 100;
 console.log(car.getKilometers);
+
+function computer(name, CPU, RAM, GPU) {
+    this.name = name;
+    this.CPU = CPU;
+    this.RAM = RAM;
+    this.GPU = GPU;
+}
+
+var computer1 = new computer("MacBook", "M1 8-core", "8GB", "nVidia 5080RTX");
+var computer2 = new computer("Acer", "Intel Core i5", "4GB", "Intel Graphis");
