@@ -9,3 +9,6 @@
     transition: 1s ease;
     transform: scale(0.9);
 }
+.test2{
+    display: none;
+}

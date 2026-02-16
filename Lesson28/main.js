@@ -50,3 +50,8 @@ v_text.onmouseover = function(){
 v_text.onclick = function(){
     v_text.setAttribute("class", "test");
 }
+
+v_btn22.onclick = function()
+{
+    v_text.setAttribute("class", "test2");
+}
